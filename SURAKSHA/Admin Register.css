@@ -1,0 +1,150 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.box-1{
+	font-size: 40px;
+	background-color:white;
+    text-align: center;
+	color:#00FF00;
+	text-shadow:1.2px 1.2px;
+}
+
+.mritu{
+	height: 100%;
+	width: 100%;
+	background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(loginbg.jpg);
+	background-position: center;
+	background-size: cover;
+	position: absolute;
+}
+.form-box{
+	width: 380px;
+	height: 550px;
+	position: relative;
+	margin: 5% auto;
+	background: #f4eee8;
+	padding: 1px;
+	overflow: hidden;
+	
+}
+/*Login Register button design*/
+.button-box{
+	width: 220px;
+	margin: 25px auto;
+	position: relative;
+	box-shadow: 0 0 20px 9px #ff61241f;
+	border-radius: 30px;
+}
+.box-3{
+	width:180px;
+	height:60px;
+	margin:2% auto 0;
+	text-align:center;
+}
+#btn{
+	top: 0;
+	left: 0;
+	position: absolute;
+	width: 110px;
+	height: 100%;
+	background: linear-gradient(to right,#150e56,#8fd6e1);
+	border-radius: 30px;
+	transition: .5s;
+}
+.social-icons{
+	margin: 30px auto;
+	text-align: center;
+}
+.social-icons img{
+	width: 30px ;
+	margin: 0 12px;
+	box-shadow: 0 0 20px 0 #7f7f7f3d;
+	cursor: pointer;
+	border-radius: 50%;  /*icons round shape*/
+}
+
+.container{
+    max-width: 100px;
+    margin: 0 auto;
+}
+.select-box{
+    width: 200px;
+}
+.select-box select{
+    height: 20px;
+    padding:10px 15px;
+    line-height: 15px;
+    font font-size: 12px;
+    border-radius: 20%;
+	cursor:pointer;
+	
+}
+.select-box:after{
+    
+}
+.input-group{
+	top: 170px;
+    margin:10%;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+}
+.input-field{
+	width: 100%;
+	padding: 5px 0;
+	margin: 5px 0;
+	border-left:15px;
+	border-top: 5px;
+	border-right: 0;
+	border-bottom: 1px solid #999;
+	outline: none;
+	background: transparent;
+}
+.submit-btn{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right,#150e56,#8fd6e1);
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+.check-box{
+	margin:6%;
+	cursor:pointer;
+}
+.check-box-2{
+	margin: 40px 12px 38px 0;
+	cursor:pointer;
+	
+}
+span{
+	color: #777;
+	font-size: 13px;
+	bottom: 78px;
+	position: absolute;
+}
+
+.input-box{
+	border-radius:10px;
+	padding:8px;
+	margin:1% auto 0;
+	width:90%;
+	border: 1px solid white;
+	Outline:none;
+}
+h1{
+    margin: 0;
+    padding: 0 0 ;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    color:#114e60;
+    
+}
+

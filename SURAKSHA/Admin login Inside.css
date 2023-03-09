@@ -1,0 +1,49 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+.logo {
+	float: left;
+}
+ul{
+	background:black;
+	overflow:hidden;
+	cursor:pointer;
+}
+ul li{
+	float:left;
+	list-style:none;	
+}
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:inline-block;
+	padding: 17px;
+	width:260px;
+	font-size:20px;
+}
+ul li a:hover{
+	background:#81b214;
+}
+.dropdown:hover .dropdown-1{
+	display:block;
+}
+.dropdown-1{
+	background:#78A1A0;
+	display:none;
+	position:absolute;
+}
+.dropdown-1 a{
+	display:block;
+	color:white;
+}
+.dropdown-1 a:hover{
+	background:#c0e218;
+}
+.background{
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(uinside.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}

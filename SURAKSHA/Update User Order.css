@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: linear-gradient(to right,#4b6cb7,#182848);
+	background-size: cover;
+	background-position:center;
+}
+.h2{
+    font-family: sans-serif;
+    color: snow;
+    
+}
+.box-1{
+	color:Black;
+	text-align:center;
+	font-size:25px;
+	margin:5% auto 0;
+}
+.box-2{
+	width:280px;
+	height:190px;
+	background:linear-gradient(to right,#93F9B9,#1D976C);
+	margin:2% auto 0;
+	padding:25px;
+}
+.xbox-2{
+	width:290px;
+	height:370px;
+	background:linear-gradient(to right,#93F9B9,#1D976C);
+	margin:3% auto 0;
+	padding:25px;
+}
+.ubox-2{
+	width:285px;
+	height:380px;
+	background:linear-gradient(to right,#93F9B9,#1D976C);
+	margin:3% auto 0;
+	padding:25px;
+}
+
+.box-3{
+	
+	margin:1% auto 0;
+	text-align:center;
+}
+.input-box{
+	border-radius:10px;
+	padding:11px;
+	margin:1% auto 0;
+	width:98.5%;
+	border: 1px solid ;
+	Outline:none;
+}
+.submit-box{
+	
+	padding:8px;
+	margin:auto;
+	width:40%;
+	border: 0;
+	Outline:none;
+	background: linear-gradient(to right,#283048,#514A9D);
+	cursor:pointer;
+    border-radius: 20%;
+    color: aliceblue;
+}
+

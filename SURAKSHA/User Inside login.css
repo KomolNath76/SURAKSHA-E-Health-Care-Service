@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	
+}
+.logo {
+	float: left;
+}
+ul{
+	background:black;
+	overflow:hidden;
+	cursor:pointer;
+}
+ul li{
+	float:left;
+	list-style:none;	
+}
+ul li a{
+	color:white;
+	text-decoration:none;
+	display:inline-block;
+	padding: 8px;
+	width:210px;
+	font-size:17px;
+}
+ul li a:hover{
+	background:#81b214;
+}
+.background{
+background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(uinside.jpg);
+background-repeat: no-repeat;
+background-size: 100%;
+}
